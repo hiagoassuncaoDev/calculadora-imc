@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 620px;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px 0 0 10px ;
+}
+
+.hero h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.hero form{
+    text-align: start;
+    align-content: center;
+}
+
+.hero form > label {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.hero form > input {
+    width: 240px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0F1926;
+    box-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.701);
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 15px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F1926;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    border-radius: 0 10px 10px 0;
+}
+
+.resultado h2 {
+    color: #F2F2F2;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.resultado img{
+    width: 300px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+button{
+    width: 240px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: ;
+}
+
+button:hover{
+    background-color: #0F1926;
+    color: #F2F2F2;
+}
