@@ -45,21 +45,23 @@ main{
 }
 
 .hero form > label {
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 500;
     margin-bottom: 25px;
 }
 
 .hero form > input {
-    width: 240px;
-    padding: 5px;
-    margin-bottom: 15px;
+    width: 230px;
+    padding: 6px;
+    margin-top: 2px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 3px;
-    background-color: #0F1926;
+    background-color: #F2F2F2;
     box-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.701);
-    color: #F2F2F2;
+    border: solid 1px #0F1926;
+    color: #0F1926;
     text-align: center;
     font-size: 15px;
 }
@@ -89,16 +91,18 @@ main{
 }
 
 button{
-    width: 240px;
+    width: 243px;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 8px;
     border-radius: 5px;
     font-size: 15px;
-    background-color: ;
+    background-color: #0F1926;
+    color: #F2F2F2;
+    transition: all ease 1.0s;
 }
 
 button:hover{
-    background-color: #0F1926;
+    background-color: #264062;
     color: #F2F2F2;
 }
