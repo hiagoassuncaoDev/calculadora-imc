@@ -85,8 +85,9 @@ main{
 }
 
 .resultado img{
-    width: 300px;
-    border-radius: 50px;
+    width: 530px;
+    height: 430px;
+    border-radius: 0 10px 10px 0;
     align-self: center;
 }
 
